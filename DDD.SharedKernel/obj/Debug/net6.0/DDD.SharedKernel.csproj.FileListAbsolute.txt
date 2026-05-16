@@ -1,0 +1,11 @@
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.SharedKernel\bin\Debug\net6.0\DDD.SharedKernel.deps.json
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.SharedKernel\bin\Debug\net6.0\DDD.SharedKernel.dll
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.SharedKernel\bin\Debug\net6.0\ref\DDD.SharedKernel.dll
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.SharedKernel\bin\Debug\net6.0\DDD.SharedKernel.pdb
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.SharedKernel\obj\Debug\net6.0\DDD.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.SharedKernel\obj\Debug\net6.0\DDD.SharedKernel.AssemblyInfoInputs.cache
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.SharedKernel\obj\Debug\net6.0\DDD.SharedKernel.AssemblyInfo.cs
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.SharedKernel\obj\Debug\net6.0\DDD.SharedKernel.csproj.CoreCompileInputs.cache
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.SharedKernel\obj\Debug\net6.0\DDD.SharedKernel.dll
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.SharedKernel\obj\Debug\net6.0\ref\DDD.SharedKernel.dll
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.SharedKernel\obj\Debug\net6.0\DDD.SharedKernel.pdb

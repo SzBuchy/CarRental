@@ -1,0 +1,15 @@
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.CarRental.Core\bin\Debug\net6.0\DDD.CarRental.Core.deps.json
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.CarRental.Core\bin\Debug\net6.0\DDD.CarRental.Core.dll
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.CarRental.Core\bin\Debug\net6.0\ref\DDD.CarRental.Core.dll
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.CarRental.Core\bin\Debug\net6.0\DDD.CarRental.Core.pdb
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.CarRental.Core\bin\Debug\net6.0\DDD.SharedKernel.dll
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.CarRental.Core\bin\Debug\net6.0\DDD.SharedKernel.pdb
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.CarRental.Core\obj\Debug\net6.0\DDD.CarRental.Core.csproj.AssemblyReference.cache
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.CarRental.Core\obj\Debug\net6.0\DDD.CarRental.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.CarRental.Core\obj\Debug\net6.0\DDD.CarRental.Core.AssemblyInfoInputs.cache
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.CarRental.Core\obj\Debug\net6.0\DDD.CarRental.Core.AssemblyInfo.cs
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.CarRental.Core\obj\Debug\net6.0\DDD.CarRental.Core.csproj.CoreCompileInputs.cache
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.CarRental.Core\obj\Debug\net6.0\DDD.CarRental.Core.csproj.CopyComplete
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.CarRental.Core\obj\Debug\net6.0\DDD.CarRental.Core.dll
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.CarRental.Core\obj\Debug\net6.0\ref\DDD.CarRental.Core.dll
+C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net60\DDD.CarRental.Core\obj\Debug\net6.0\DDD.CarRental.Core.pdb

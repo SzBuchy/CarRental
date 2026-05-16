@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "UHMPRYvkG7o=",
+  "success": true,
+  "projectFilePath": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.SharedKernel/DDD.SharedKernel.csproj",
+  "expectedPackageFiles": [
+    "/Users/szymonbuchowicz/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.1/microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "/Users/szymonbuchowicz/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/Users/szymonbuchowicz/.nuget/packages/microsoft.netcore.app.ref/8.0.16/microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
+    "/Users/szymonbuchowicz/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.16/microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

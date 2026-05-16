@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.72" />
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="8.0.25" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.25" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ApplicationLayer\DomainEventHandlers\" />
+    <Folder Include="ApplicationLayer\DTOs\" />
+    <Folder Include="DomainModelLayer\Events\" />
+    <Folder Include="DomainModelLayer\Factories\" />
+    <Folder Include="DomainModelLayer\Services\" />
+    <Folder Include="DomainModelLayer\Policies\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DDD.SharedKernel\DDD.SharedKernel.csproj" />
+  </ItemGroup>
+
+</Project>
