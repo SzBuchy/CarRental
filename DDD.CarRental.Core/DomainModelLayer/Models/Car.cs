@@ -13,6 +13,10 @@ namespace DDD.CarRental.Core.DomainModelLayer.Models
         public Distance CurrentDistance { get; private set; }
         public CarStatus Status { get; private set; }
 
+        private Car()
+        {
+        }
+
         public Car(string registrationNumber, decimal dailyRate, Position currentPosition)
         {
             if (string.IsNullOrWhiteSpace(registrationNumber) || dailyRate <= 0 || currentPosition == null)

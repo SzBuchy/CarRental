@@ -11,8 +11,21 @@ namespace DDD.CarRental.Core.DomainModelLayer.Models
         public string FirstName { get; private set; }
         public string LastName { get; private set; }
 
+        private Renter()
+        {
+        }
+
         public Renter(long driverId, string licenceNumber, string firstName, string lastName)
         {
+            if (driverId <= 0){throw new ArgumentOutOfRangeException(nameof(driverId), $"{nameof(driverId)} must be greater than zero.");}
+
+            if (string.IsNullOrWhiteSpace(licenceNumber))
+            {
+                throw new ArgumentException($"{nameof(licenceNumber)} cannot be null or whitespace.", nameof(licenceNumber));
+            }
+            if (string.IsNullOrWhiteSpace(firstName)){throw new ArgumentException($"{nameof(firstName)} cannot be null or whitespace.", nameof(firstName));}
+            if(string.IsNullOrWhiteSpace(lastName)){throw new ArgumentException($"{nameof(lastName)} cannot be null or whitespace.", nameof(lastName));}
+            
             DriverId = driverId;
             LicenceNumber = licenceNumber;
             FirstName = firstName;
