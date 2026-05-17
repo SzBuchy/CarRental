@@ -1,4 +1,5 @@
 ﻿using System;
+using DDD.CarRental.Core.DomainModelLayer.Events;
 using DDD.SharedKernel.DomainModelLayer;
 using DDD.SharedKernel.DomainModelLayer.Implementations;
 
@@ -39,6 +40,7 @@ namespace DDD.CarRental.Core.DomainModelLayer.Models
             }
 
             this.Status = CarStatus.Rented;
+            this.AddDomainEvent(new CarRentedEvent(this.Id, this.RegistrationNumber, DateTime.Now));
 
         }
 
@@ -49,6 +51,7 @@ namespace DDD.CarRental.Core.DomainModelLayer.Models
                 throw new InvalidOperationException($"Car '{this.RegistrationNumber}' was not rented.");
             }
             this.Status = CarStatus.Free;
+            this.AddDomainEvent(new CarReturnedEvent(this.Id, this.RegistrationNumber, DateTime.Now));
         }
 
         public void ChangePosition(Position position)

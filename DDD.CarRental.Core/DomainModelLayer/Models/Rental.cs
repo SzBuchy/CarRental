@@ -1,4 +1,6 @@
 using System;
+using DDD.CarRental.Core.DomainModelLayer.Events;
+using DDD.CarRental.Core.DomainModelLayer.Policies;
 using DDD.SharedKernel.DomainModelLayer;
 using DDD.SharedKernel.DomainModelLayer.Implementations;
 
@@ -32,9 +34,19 @@ namespace DDD.CarRental.Core.DomainModelLayer.Models
 
         public void Finish(DateTime finishedAt)
         {
+            this.Finish(finishedAt, new RentalPricingPolicy());
+        }
+
+        public void Finish(DateTime finishedAt, RentalPricingPolicy pricingPolicy)
+        {
             if (this.FinishedAt != null)
             {
                 throw new InvalidOperationException("Rental is already finished.");
+            }
+
+            if (pricingPolicy == null)
+            {
+                throw new ArgumentNullException(nameof(pricingPolicy));
             }
 
             if (finishedAt == default)
@@ -48,8 +60,9 @@ namespace DDD.CarRental.Core.DomainModelLayer.Models
             }
 
             this.FinishedAt = finishedAt;
-            this.TotalAmount = this.CalculateTotalAmount();
-            this.Total = this.CalculateTotal();
+            this.TotalAmount = this.CalculateTotalAmount(pricingPolicy);
+            this.Total = new Money(this.TotalAmount);
+            this.AddDomainEvent(new RentalFinishedEvent(this.Id, this.StartedAt, finishedAt, this.TotalAmount));
         }
 
         public bool IsFinished()
@@ -75,19 +88,22 @@ namespace DDD.CarRental.Core.DomainModelLayer.Models
 
         public decimal CalculateTotalAmount()
         {
+            return this.CalculateTotalAmount(new RentalPricingPolicy());
+        }
+
+        public decimal CalculateTotalAmount(RentalPricingPolicy pricingPolicy)
+        {
+            if (pricingPolicy == null)
+            {
+                throw new ArgumentNullException(nameof(pricingPolicy));
+            }
+
             if (this.FinishedAt == null)
             {
                 return 0;
             }
 
-            var days = (this.FinishedAt.Value.Date - this.StartedAt.Date).Days;
-
-            if (days <= 0)
-            {
-                days = 1;
-            }
-
-            return days * this.RentedCar.DailyRate;
+            return pricingPolicy.CalculateTotalAmount(this.StartedAt, this.FinishedAt.Value, this.RentedCar.DailyRate);
         }
 
         public Money CalculateTotal()
