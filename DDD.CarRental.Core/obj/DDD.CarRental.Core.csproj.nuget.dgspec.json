@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.Core/DDD.CarRental.Core.csproj": {}
+    "C:\\Users\\Jakub\\Source\\Repos\\CarRental\\DDD.CarRental.Core\\DDD.CarRental.Core.csproj": {}
   },
   "projects": {
-    "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.Core/DDD.CarRental.Core.csproj": {
+    "C:\\Users\\Jakub\\Source\\Repos\\CarRental\\DDD.CarRental.Core\\DDD.CarRental.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.Core/DDD.CarRental.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Jakub\\Source\\Repos\\CarRental\\DDD.CarRental.Core\\DDD.CarRental.Core.csproj",
         "projectName": "DDD.CarRental.Core",
-        "projectPath": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.Core/DDD.CarRental.Core.csproj",
-        "packagesPath": "/Users/szymonbuchowicz/.nuget/packages/",
-        "outputPath": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.Core/obj/",
+        "projectPath": "C:\\Users\\Jakub\\Source\\Repos\\CarRental\\DDD.CarRental.Core\\DDD.CarRental.Core.csproj",
+        "packagesPath": "C:\\Users\\Jakub\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jakub\\Source\\Repos\\CarRental\\DDD.CarRental.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/szymonbuchowicz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jakub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.SharedKernel/DDD.SharedKernel.csproj": {
-                "projectPath": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.SharedKernel/DDD.SharedKernel.csproj"
+              "C:\\Users\\Jakub\\Source\\Repos\\CarRental\\DDD.SharedKernel\\DDD.SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\Jakub\\Source\\Repos\\CarRental\\DDD.SharedKernel\\DDD.SharedKernel.csproj"
               }
             }
           }
@@ -42,7 +48,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -72,41 +78,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.16, 8.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.16, 8.0.16]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.SharedKernel/DDD.SharedKernel.csproj": {
+    "C:\\Users\\Jakub\\Source\\Repos\\CarRental\\DDD.SharedKernel\\DDD.SharedKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.SharedKernel/DDD.SharedKernel.csproj",
+        "projectUniqueName": "C:\\Users\\Jakub\\Source\\Repos\\CarRental\\DDD.SharedKernel\\DDD.SharedKernel.csproj",
         "projectName": "DDD.SharedKernel",
-        "projectPath": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.SharedKernel/DDD.SharedKernel.csproj",
-        "packagesPath": "/Users/szymonbuchowicz/.nuget/packages/",
-        "outputPath": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.SharedKernel/obj/",
+        "projectPath": "C:\\Users\\Jakub\\Source\\Repos\\CarRental\\DDD.SharedKernel\\DDD.SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\Jakub\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jakub\\Source\\Repos\\CarRental\\DDD.SharedKernel\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/szymonbuchowicz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jakub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -125,7 +127,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -147,22 +149,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.16, 8.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.16, 8.0.16]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
