@@ -1,15 +1,31 @@
-C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net80\DDD.CarRental.Core\bin\Debug\net8.0\DDD.CarRental.Core.deps.json
-C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net80\DDD.CarRental.Core\bin\Debug\net8.0\DDD.CarRental.Core.dll
-C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net80\DDD.CarRental.Core\bin\Debug\net8.0\DDD.CarRental.Core.pdb
-C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net80\DDD.CarRental.Core\bin\Debug\net8.0\DDD.SharedKernel.dll
-C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net80\DDD.CarRental.Core\bin\Debug\net8.0\DDD.SharedKernel.pdb
-C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net80\DDD.CarRental.Core\obj\Debug\net8.0\DDD.CarRental.Core.csproj.AssemblyReference.cache
-C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net80\DDD.CarRental.Core\obj\Debug\net8.0\DDD.CarRental.Core.GeneratedMSBuildEditorConfig.editorconfig
-C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net80\DDD.CarRental.Core\obj\Debug\net8.0\DDD.CarRental.Core.AssemblyInfoInputs.cache
-C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net80\DDD.CarRental.Core\obj\Debug\net8.0\DDD.CarRental.Core.AssemblyInfo.cs
-C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net80\DDD.CarRental.Core\obj\Debug\net8.0\DDD.CarRental.Core.csproj.CoreCompileInputs.cache
-C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net80\DDD.CarRental.Core\obj\Debug\net8.0\DDD.CarR.D3CB0EC2.Up2Date
-C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net80\DDD.CarRental.Core\obj\Debug\net8.0\DDD.CarRental.Core.dll
-C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net80\DDD.CarRental.Core\obj\Debug\net8.0\refint\DDD.CarRental.Core.dll
-C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net80\DDD.CarRental.Core\obj\Debug\net8.0\DDD.CarRental.Core.pdb
-C:\OneDrive\Personal\OneDrive\Student\Wzorce projektowe\Lab\Lab5\DDD.CarRental-Student_Net80\DDD.CarRental.Core\obj\Debug\net8.0\ref\DDD.CarRental.Core.dll
+C:/OneDrive/Personal/OneDrive/Student/Wzorce projektowe/Lab/Lab5/DDD.CarRental-Student_Net80/DDD.CarRental.Core/bin/Debug/net8.0/DDD.CarRental.Core.deps.json
+C:/OneDrive/Personal/OneDrive/Student/Wzorce projektowe/Lab/Lab5/DDD.CarRental-Student_Net80/DDD.CarRental.Core/bin/Debug/net8.0/DDD.CarRental.Core.dll
+C:/OneDrive/Personal/OneDrive/Student/Wzorce projektowe/Lab/Lab5/DDD.CarRental-Student_Net80/DDD.CarRental.Core/bin/Debug/net8.0/DDD.CarRental.Core.pdb
+C:/OneDrive/Personal/OneDrive/Student/Wzorce projektowe/Lab/Lab5/DDD.CarRental-Student_Net80/DDD.CarRental.Core/bin/Debug/net8.0/DDD.SharedKernel.dll
+C:/OneDrive/Personal/OneDrive/Student/Wzorce projektowe/Lab/Lab5/DDD.CarRental-Student_Net80/DDD.CarRental.Core/bin/Debug/net8.0/DDD.SharedKernel.pdb
+C:/OneDrive/Personal/OneDrive/Student/Wzorce projektowe/Lab/Lab5/DDD.CarRental-Student_Net80/DDD.CarRental.Core/obj/Debug/net8.0/DDD.CarRental.Core.csproj.AssemblyReference.cache
+C:/OneDrive/Personal/OneDrive/Student/Wzorce projektowe/Lab/Lab5/DDD.CarRental-Student_Net80/DDD.CarRental.Core/obj/Debug/net8.0/DDD.CarRental.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:/OneDrive/Personal/OneDrive/Student/Wzorce projektowe/Lab/Lab5/DDD.CarRental-Student_Net80/DDD.CarRental.Core/obj/Debug/net8.0/DDD.CarRental.Core.AssemblyInfoInputs.cache
+C:/OneDrive/Personal/OneDrive/Student/Wzorce projektowe/Lab/Lab5/DDD.CarRental-Student_Net80/DDD.CarRental.Core/obj/Debug/net8.0/DDD.CarRental.Core.AssemblyInfo.cs
+C:/OneDrive/Personal/OneDrive/Student/Wzorce projektowe/Lab/Lab5/DDD.CarRental-Student_Net80/DDD.CarRental.Core/obj/Debug/net8.0/DDD.CarRental.Core.csproj.CoreCompileInputs.cache
+C:/OneDrive/Personal/OneDrive/Student/Wzorce projektowe/Lab/Lab5/DDD.CarRental-Student_Net80/DDD.CarRental.Core/obj/Debug/net8.0/DDD.CarR.D3CB0EC2.Up2Date
+C:/OneDrive/Personal/OneDrive/Student/Wzorce projektowe/Lab/Lab5/DDD.CarRental-Student_Net80/DDD.CarRental.Core/obj/Debug/net8.0/DDD.CarRental.Core.dll
+C:/OneDrive/Personal/OneDrive/Student/Wzorce projektowe/Lab/Lab5/DDD.CarRental-Student_Net80/DDD.CarRental.Core/obj/Debug/net8.0/refint/DDD.CarRental.Core.dll
+C:/OneDrive/Personal/OneDrive/Student/Wzorce projektowe/Lab/Lab5/DDD.CarRental-Student_Net80/DDD.CarRental.Core/obj/Debug/net8.0/DDD.CarRental.Core.pdb
+C:/OneDrive/Personal/OneDrive/Student/Wzorce projektowe/Lab/Lab5/DDD.CarRental-Student_Net80/DDD.CarRental.Core/obj/Debug/net8.0/ref/DDD.CarRental.Core.dll
+/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/obj/Debug/net8.0/DDD.CarRental.Core.csproj.AssemblyReference.cache
+/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/obj/Debug/net8.0/DDD.CarRental.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/obj/Debug/net8.0/DDD.CarRental.Core.AssemblyInfoInputs.cache
+/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/obj/Debug/net8.0/DDD.CarRental.Core.AssemblyInfo.cs
+/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/obj/Debug/net8.0/DDD.CarRental.Core.csproj.CoreCompileInputs.cache
+/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/obj/Debug/net8.0/DDD.CarRental.Core.sourcelink.json
+/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/obj/Debug/net8.0/DDD.CarRental.Core.dll
+/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/obj/Debug/net8.0/refint/DDD.CarRental.Core.dll
+/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/obj/Debug/net8.0/DDD.CarRental.Core.pdb
+/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/bin/Debug/net8.0/DDD.CarRental.Core.deps.json
+/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/bin/Debug/net8.0/DDD.CarRental.Core.dll
+/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/bin/Debug/net8.0/DDD.CarRental.Core.pdb
+/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/bin/Debug/net8.0/DDD.SharedKernel.dll
+/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/bin/Debug/net8.0/DDD.SharedKernel.pdb
+/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/obj/Debug/net8.0/DDD.CarR.D3CB0EC2.Up2Date
+/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/obj/Debug/net8.0/ref/DDD.CarRental.Core.dll

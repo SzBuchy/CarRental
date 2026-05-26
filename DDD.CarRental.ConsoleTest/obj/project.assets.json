@@ -275,27 +275,6 @@
           "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Logging.Debug/8.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
-          "Microsoft.Extensions.Logging": "8.0.1",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.2"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
       "Microsoft.Extensions.Options/8.0.2": {
         "type": "package",
         "dependencies": {
@@ -923,36 +902,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Logging.Debug/8.0.1": {
-      "sha512": "B8hqNuYudC2RB+L/DI33uO4rf5by41fZVdcVL2oZj0UyoAZqnwTwYHp1KafoH4nkl1/23piNeybFFASaV2HkFg==",
-      "type": "package",
-      "path": "microsoft.extensions.logging.debug/8.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "PACKAGE.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/Microsoft.Extensions.Logging.Debug.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.Debug.targets",
-        "lib/net462/Microsoft.Extensions.Logging.Debug.dll",
-        "lib/net462/Microsoft.Extensions.Logging.Debug.xml",
-        "lib/net6.0/Microsoft.Extensions.Logging.Debug.dll",
-        "lib/net6.0/Microsoft.Extensions.Logging.Debug.xml",
-        "lib/net7.0/Microsoft.Extensions.Logging.Debug.dll",
-        "lib/net7.0/Microsoft.Extensions.Logging.Debug.xml",
-        "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll",
-        "lib/net8.0/Microsoft.Extensions.Logging.Debug.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.xml",
-        "microsoft.extensions.logging.debug.8.0.1.nupkg.sha512",
-        "microsoft.extensions.logging.debug.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "Microsoft.Extensions.Options/8.0.2": {
       "sha512": "dWGKvhFybsaZpGmzkGCbNNwBD1rVlWzrZKANLW/CcbFJpCEceMCGzT7zZwHOGBCbwM0SzBuceMj5HN1LKV1QqA==",
       "type": "package",
@@ -1153,12 +1102,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "DDD.CarRental.Core >= 1.0.0",
-      "Dapper >= 2.1.72",
-      "Microsoft.Data.Sqlite.Core >= 8.0.25",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.25",
-      "Microsoft.Extensions.DependencyInjection >= 8.0.1",
-      "Microsoft.Extensions.Logging.Debug >= 8.0.1"
+      "DDD.CarRental.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1167,11 +1111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.ConsoleTest/DDD.CarRental.ConsoleTest.csproj",
+      "projectUniqueName": "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.ConsoleTest/DDD.CarRental.ConsoleTest.csproj",
       "projectName": "DDD.CarRental.ConsoleTest",
-      "projectPath": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.ConsoleTest/DDD.CarRental.ConsoleTest.csproj",
+      "projectPath": "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.ConsoleTest/DDD.CarRental.ConsoleTest.csproj",
       "packagesPath": "/Users/szymonbuchowicz/.nuget/packages/",
-      "outputPath": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.ConsoleTest/obj/",
+      "outputPath": "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.ConsoleTest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/szymonbuchowicz/.nuget/NuGet/NuGet.Config"
@@ -1186,8 +1130,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.Core/DDD.CarRental.Core.csproj": {
-              "projectPath": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.Core/DDD.CarRental.Core.csproj"
+            "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/DDD.CarRental.Core.csproj": {
+              "projectPath": "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/DDD.CarRental.Core.csproj"
             }
           }
         }
@@ -1207,28 +1151,6 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
-        "dependencies": {
-          "Dapper": {
-            "target": "Package",
-            "version": "[2.1.72, )"
-          },
-          "Microsoft.Data.Sqlite.Core": {
-            "target": "Package",
-            "version": "[8.0.25, )"
-          },
-          "Microsoft.EntityFrameworkCore.Sqlite": {
-            "target": "Package",
-            "version": "[8.0.25, )"
-          },
-          "Microsoft.Extensions.DependencyInjection": {
-            "target": "Package",
-            "version": "[8.0.1, )"
-          },
-          "Microsoft.Extensions.Logging.Debug": {
-            "target": "Package",
-            "version": "[8.0.1, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

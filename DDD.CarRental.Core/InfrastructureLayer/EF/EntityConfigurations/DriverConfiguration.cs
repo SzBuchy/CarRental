@@ -20,7 +20,20 @@ namespace DDD.CarRental.Core.InfrastructureLayer.EF.EntityConfigurations
             // wykluczenie DomainsEvents z modelu relacyjnego - nie ma potrzeby zapisywania w bazie zdarzeń domenowych
             driverConfiguration.Ignore(c => c.DomainEvents);
 
-            // ToDo: konfiguracja pozostalych elementów
+            driverConfiguration.Property(c => c.FirstName)
+                .IsRequired()
+                .HasMaxLength(64);
+
+            driverConfiguration.Property(c => c.LastName)
+                .IsRequired()
+                .HasMaxLength(64);
+
+            driverConfiguration.Property(c => c.LicenceNumber)
+                .IsRequired()
+                .HasMaxLength(32);
+
+            driverConfiguration.Property(c => c.FreeMinutes)
+                .IsRequired();
         }
     }
 

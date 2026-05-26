@@ -26,8 +26,8 @@ namespace DDD.CarRental.Core.InfrastructureLayer.EF
             base.OnModelCreating(builder);
 
             builder.ApplyConfiguration(new DriverConfiguration());
-            
-            // ToDo: konfiguracja pozostałych klas modelu
+            builder.ApplyConfiguration(new CarConfiguration());
+            builder.ApplyConfiguration(new RentalConfiguration());
         }
     }
 }

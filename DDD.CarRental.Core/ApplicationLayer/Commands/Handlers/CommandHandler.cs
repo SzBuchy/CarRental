@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using DDD.CarRental.Core.DomainModelLayer.Interfaces;
 using DDD.CarRental.Core.DomainModelLayer.Models;
+using DDD.CarRental.Core.DomainModelLayer.Policies;
 using DDD.CarRental.Core.DomainModelLayer.Services;
-using DDD.CarRental.Core.InfrastructureLayer;
 
 namespace DDD.CarRental.Core.ApplicationLayer.Commands.Handlers
 {
@@ -12,13 +12,14 @@ namespace DDD.CarRental.Core.ApplicationLayer.Commands.Handlers
     {
         private readonly ICarRentalUnitOfWork uow;
         private readonly RentalService rentalService;
-        private readonly PositionService positionService;
+        private readonly IPositionService positionService;
 
         //wstrzykuję przez kontruktor jednostkę pracy i serwis domenowy
-        public CommandHandler(ICarRentalUnitOfWork uow, RentalService rentalService)
+        public CommandHandler(ICarRentalUnitOfWork uow, RentalService rentalService, IPositionService positionService)
         {
             this.uow = uow;
             this.rentalService = rentalService;
+            this.positionService = positionService;
         }
 
         //przeładowania Execute:
@@ -30,7 +31,7 @@ namespace DDD.CarRental.Core.ApplicationLayer.Commands.Handlers
             var car = new Car(command.RegistrationNumber, command.DailyRate, position);
 
             //zapis w repo
-            uow.CarRepository.Add(car);
+            uow.CarRepository.Insert(car);
 
             //zatwierdzenie transakcji
             uow.Commit();
@@ -39,7 +40,7 @@ namespace DDD.CarRental.Core.ApplicationLayer.Commands.Handlers
         public void Execute(CreateDriverCommand command)
         {
             //obiekty, które nie są agregatami, można tworzyć bezpośrednio w handlerze, bo nie mają swojej tożsamości i nie są zarządzane przez repozytorium
-            var driver = new Driver(command.LicenseNumber, command.FirstName, command.LastName, command.FreeMinutes);
+            var driver = new Driver(command.FirstName, command.LastName, command.LicenseNumber, command.FreeMinutes);
             uow.DriverRepository.Insert(driver); //dlatego insert, a nie add
             uow.Commit();
         }
@@ -66,13 +67,18 @@ namespace DDD.CarRental.Core.ApplicationLayer.Commands.Handlers
             var driver = uow.DriverRepository.Get(rental.Renter.DriverId);
             //nowa pozycja z serwisu infrastruktury (losowana)
             var position = positionService.GetCurrentPosition(car.Id);
+            car.ChangePosition(position);
 
-            rentalService.FinishRental(rental, car, DateTime.Now); //wywołuje rental.Finish() i car.Return()
+            rentalService.FinishRental(rental, car, command.FinishedAt); //wywołuje rental.Finish() i car.Return()
             //obliczenie minut darmowych:
-            int freeMinutes = (int)rental.GetDuration(DateTime.Now).TotalMinutes;
-            driver.AddFreeMinutes(freeMinutes);
+            int freeMinutes = rental.CalculateBonusMinutes();
+            if (freeMinutes > 0)
+            {
+                driver.AddFreeMinutes(freeMinutes, rental.FreeMinutesPolicy);
+            }
             
             //zatwierdzenie transakcji
             uow.Commit();
         }
+    }
 }

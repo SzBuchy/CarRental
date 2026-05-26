@@ -1,6 +1,7 @@
 using System;
 using DDD.CarRental.Core.DomainModelLayer.Events;
 using DDD.CarRental.Core.DomainModelLayer.Models;
+using DDD.CarRental.Core.DomainModelLayer.Policies;
 
 namespace DDD.CarRental.Core.DomainModelLayer.Factories
 {
@@ -37,7 +38,8 @@ namespace DDD.CarRental.Core.DomainModelLayer.Factories
             var rental = new Rental(
                 _renterFactory.CreateFromDriver(driver),
                 _rentedCarFactory.CreateFromCar(car),
-                startedAt
+                startedAt,
+                new FreeMinutesPolicy()
             );
 
             rental.AddDomainEvent(new RentalStartedEvent(rental.Id, driver.Id, car.Id, startedAt));

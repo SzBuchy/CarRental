@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.ConsoleTest/DDD.CarRental.ConsoleTest.csproj": {}
+    "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.ConsoleTest/DDD.CarRental.ConsoleTest.csproj": {}
   },
   "projects": {
-    "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.ConsoleTest/DDD.CarRental.ConsoleTest.csproj": {
+    "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.ConsoleTest/DDD.CarRental.ConsoleTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.ConsoleTest/DDD.CarRental.ConsoleTest.csproj",
+        "projectUniqueName": "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.ConsoleTest/DDD.CarRental.ConsoleTest.csproj",
         "projectName": "DDD.CarRental.ConsoleTest",
-        "projectPath": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.ConsoleTest/DDD.CarRental.ConsoleTest.csproj",
+        "projectPath": "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.ConsoleTest/DDD.CarRental.ConsoleTest.csproj",
         "packagesPath": "/Users/szymonbuchowicz/.nuget/packages/",
-        "outputPath": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.ConsoleTest/obj/",
+        "outputPath": "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.ConsoleTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/szymonbuchowicz/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.Core/DDD.CarRental.Core.csproj": {
-                "projectPath": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.Core/DDD.CarRental.Core.csproj"
+              "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/DDD.CarRental.Core.csproj": {
+                "projectPath": "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/DDD.CarRental.Core.csproj"
               }
             }
           }
@@ -47,28 +47,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.1.72, )"
-            },
-            "Microsoft.Data.Sqlite.Core": {
-              "target": "Package",
-              "version": "[8.0.25, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[8.0.25, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[8.0.1, )"
-            },
-            "Microsoft.Extensions.Logging.Debug": {
-              "target": "Package",
-              "version": "[8.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -103,14 +81,14 @@
         }
       }
     },
-    "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.Core/DDD.CarRental.Core.csproj": {
+    "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/DDD.CarRental.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.Core/DDD.CarRental.Core.csproj",
+        "projectUniqueName": "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/DDD.CarRental.Core.csproj",
         "projectName": "DDD.CarRental.Core",
-        "projectPath": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.Core/DDD.CarRental.Core.csproj",
+        "projectPath": "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/DDD.CarRental.Core.csproj",
         "packagesPath": "/Users/szymonbuchowicz/.nuget/packages/",
-        "outputPath": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.CarRental.Core/obj/",
+        "outputPath": "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.CarRental.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/szymonbuchowicz/.nuget/NuGet/NuGet.Config"
@@ -125,8 +103,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.SharedKernel/DDD.SharedKernel.csproj": {
-                "projectPath": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.SharedKernel/DDD.SharedKernel.csproj"
+              "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.SharedKernel/DDD.SharedKernel.csproj": {
+                "projectPath": "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.SharedKernel/DDD.SharedKernel.csproj"
               }
             }
           }
@@ -190,14 +168,14 @@
         }
       }
     },
-    "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.SharedKernel/DDD.SharedKernel.csproj": {
+    "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.SharedKernel/DDD.SharedKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.SharedKernel/DDD.SharedKernel.csproj",
+        "projectUniqueName": "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.SharedKernel/DDD.SharedKernel.csproj",
         "projectName": "DDD.SharedKernel",
-        "projectPath": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.SharedKernel/DDD.SharedKernel.csproj",
+        "projectPath": "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.SharedKernel/DDD.SharedKernel.csproj",
         "packagesPath": "/Users/szymonbuchowicz/.nuget/packages/",
-        "outputPath": "/Users/szymonbuchowicz/Downloads/CarRental_Net80_v2/DDD.SharedKernel/obj/",
+        "outputPath": "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.SharedKernel/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/szymonbuchowicz/.nuget/NuGet/NuGet.Config"
