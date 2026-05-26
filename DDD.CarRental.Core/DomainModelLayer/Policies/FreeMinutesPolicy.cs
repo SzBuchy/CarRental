@@ -4,6 +4,18 @@ namespace DDD.CarRental.Core.DomainModelLayer.Policies
 {
     public class FreeMinutesPolicy
     {
+        public int CalculateBonusMinutes(TimeSpan duration)
+        {
+            if (duration.TotalMinutes < 0)
+            {
+                return 0;
+            }
+
+            // Za każdą pełną godzinę wykorzystaną dostajesz 5 darmowych minut
+            int totalHours = (int)duration.TotalHours;
+            return totalHours * 5;
+        }
+
         public void CheckCanAdd(int minutes)
         {
             if (minutes <= 0)
@@ -39,5 +51,6 @@ namespace DDD.CarRental.Core.DomainModelLayer.Policies
 
             return currentFreeMinutes > 0;
         }
+        
     }
 }

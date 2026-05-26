@@ -11,7 +11,7 @@ namespace DDD.SharedKernel.DomainModelLayer.Implementations
         private List<IDomainEvent> _domainEvents;
         public IEnumerable<IDomainEvent> DomainEvents
         {
-            get { return _domainEvents.AsReadOnly(); }
+            get { return (_domainEvents ?? new List<IDomainEvent>()).AsReadOnly(); }
         }
 
         public void AddDomainEvent(IDomainEvent eventItem)
@@ -39,6 +39,7 @@ namespace DDD.SharedKernel.DomainModelLayer.Implementations
         public Entity()
         {
             this.Id = new Random().Next(0, int.MaxValue);
+            this._domainEvents = new List<IDomainEvent>();
         }
             
     }

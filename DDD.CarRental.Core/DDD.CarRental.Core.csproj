@@ -13,7 +13,6 @@
   <ItemGroup>
     <Folder Include="DomainModelLayer\Events\" />
     <Folder Include="DomainModelLayer\Factories\" />
-    <Folder Include="DomainModelLayer\Policies\" />
   </ItemGroup>
 
   <ItemGroup>

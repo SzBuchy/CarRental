@@ -31,6 +31,16 @@ namespace DDD.CarRental.Core.DomainModelLayer.Models
             yield return Unit;
         }
 
+        public Distance Distance(Position other)
+        {
+            var deltaX = X - other.X;
+            var deltaY = Y - other.Y;
+
+            var distance = (decimal)Math.Sqrt(
+                Math.Pow((double)deltaX, 2) + Math.Pow((double)deltaY, 2)
+            );
+            return new Distance(distance, "km");
+        }
     }
 
 }

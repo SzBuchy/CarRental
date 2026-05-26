@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "VVEIvVVPiVw=",
+  "dgSpecHash": "A54E4/obpzM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jakub\\Source\\Repos\\CarRental\\DDD.SharedKernel\\DDD.SharedKernel.csproj",
+  "projectFilePath": "/Users/szymonbuchowicz/Desktop/studia/_Semestr6/Wzorce/projekt_jedrusik/CarRental/DDD.SharedKernel/DDD.SharedKernel.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Jakub\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
-    "C:\\Users\\Jakub\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+    "/Users/szymonbuchowicz/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.1/microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "/Users/szymonbuchowicz/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/Users/szymonbuchowicz/.nuget/packages/microsoft.netcore.app.ref/8.0.16/microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
+    "/Users/szymonbuchowicz/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.16/microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512"
   ],
   "logs": []
 }

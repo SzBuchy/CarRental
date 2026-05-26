@@ -14,15 +14,17 @@ namespace DDD.CarRental.Core.DomainModelLayer.Models
         public RentedCar RentedCar { get; private set; }
         public Renter Renter { get; private set; }
         public Money Total { get; private set; }
+        public FreeMinutesPolicy FreeMinutesPolicy { get; private set; }
 
         private Rental()
         {
         }
 
-        public Rental(Renter renter, RentedCar rentedCar, DateTime startedAt)
+        public Rental(Renter renter, RentedCar rentedCar, DateTime startedAt, FreeMinutesPolicy freeMinutesPolicy)
         {
             this.Renter = renter ?? throw new ArgumentNullException(nameof(renter));
             this.RentedCar = rentedCar ?? throw new ArgumentNullException(nameof(rentedCar));
+            this.FreeMinutesPolicy = freeMinutesPolicy ?? throw new ArgumentNullException(nameof(freeMinutesPolicy));
             if (startedAt == default)
             {
                 throw new ArgumentException($"{nameof(startedAt)} is required.", nameof(startedAt));
@@ -109,6 +111,16 @@ namespace DDD.CarRental.Core.DomainModelLayer.Models
         public Money CalculateTotal()
         {
             return new Money(this.CalculateTotalAmount());
+        }
+
+        public int CalculateBonusMinutes()
+        {
+            if (this.FinishedAt == null)
+            {
+                return 0;
+            }
+
+            return this.FreeMinutesPolicy.CalculateBonusMinutes(this.GetDuration(this.FinishedAt.Value));
         }
     }
 }

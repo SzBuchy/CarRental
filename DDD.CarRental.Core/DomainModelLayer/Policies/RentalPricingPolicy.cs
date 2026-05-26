@@ -6,6 +6,7 @@ namespace DDD.CarRental.Core.DomainModelLayer.Policies
     {
         public decimal CalculateTotalAmount(DateTime startedAt, DateTime finishedAt, decimal dailyRate)
         {
+            decimal minuteRate =  dailyRate / 24/60;
             if (startedAt == default)
             {
                 throw new ArgumentException($"{nameof(startedAt)} is required.", nameof(startedAt));
@@ -26,14 +27,15 @@ namespace DDD.CarRental.Core.DomainModelLayer.Policies
                 throw new ArgumentOutOfRangeException(nameof(dailyRate), $"{nameof(dailyRate)} must be greater than zero.");
             }
 
-            var days = (finishedAt.Date - startedAt.Date).Days;
+            var minutes = (decimal)Math.Ceiling((finishedAt - startedAt).TotalMinutes);
 
-            if (days <= 0)
+            if (minutes <= 0)
+                
             {
-                days = 1;
+                minutes = 1;
             }
 
-            return days * dailyRate;
+            return minutes * minuteRate;
         }
     }
 }
