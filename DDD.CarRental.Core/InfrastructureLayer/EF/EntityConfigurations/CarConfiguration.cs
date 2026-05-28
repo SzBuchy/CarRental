@@ -9,7 +9,6 @@ namespace DDD.CarRental.Core.InfrastructureLayer.EF.EntityConfigurations
         public void Configure(EntityTypeBuilder<Car> carConfiguration)
         {
             carConfiguration.HasKey(c => c.Id);
-            carConfiguration.Property(c => c.Id).ValueGeneratedNever();
             carConfiguration.Ignore(c => c.DomainEvents);
 
             carConfiguration.Property(c => c.RegistrationNumber)

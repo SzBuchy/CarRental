@@ -12,7 +12,6 @@ namespace DDD.CarRental.Core.InfrastructureLayer
     {
         public Position GetCurrentPosition(long carId)
         {
-            //wylosujemy sobie na potrzeby projektu, normalnie to byłoby tu jakieś api
             var random = new Random();
             return new Position(
                 random.Next(-100, 100),

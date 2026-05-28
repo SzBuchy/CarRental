@@ -12,7 +12,6 @@ namespace DDD.CarRental.Core.ApplicationLayer.DomainEventHandlers
     {
         public void Handle(RentalFinishedEvent domainEvent)
         {
-            //wysatrczy że coś wypiszę na potrzeby projektu
             Console.WriteLine($"[EVENT] Wypożyczenie {domainEvent.RentalId}, utworzone o czasie {domainEvent.StartedAt}, zakończono o czasie {domainEvent.FinishedAt}. Kwota do zapłacenia wynosi {domainEvent.TotalAmount:F2}");
         }
     }

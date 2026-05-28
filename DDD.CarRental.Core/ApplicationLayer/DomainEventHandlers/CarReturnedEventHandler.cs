@@ -12,7 +12,6 @@ namespace DDD.CarRental.Core.ApplicationLayer.DomainEventHandlers
     {
         public void Handle(CarReturnedEvent domainEvent)
         {
-            //analogicznie jak w przypadku CarRentedEventHandler, tutaj również wystarczy że coś wypiszę
             Console.WriteLine($"[EVENT] Auto {domainEvent.CarId}, o numerze rejestracyjnym {domainEvent.RegistrationNumber} zwrócone o czasie {domainEvent.ReturnedAt}!");
         }
     }

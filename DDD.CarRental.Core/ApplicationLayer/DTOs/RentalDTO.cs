@@ -10,7 +10,7 @@ namespace DDD.CarRental.Core.ApplicationLayer.DTOs
     {
         public long Id { get; set; }
         public DateTime StartedAt { get; set; }
-        public DateTime? FinishedAt { get; set; } //nullowany
+        public DateTime? FinishedAt { get; set; }
         public decimal TotalAmount { get; set; }
         public bool IsFinished { get; set; }
 
