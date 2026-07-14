@@ -8,7 +8,6 @@ namespace DDD.CarRental.Core.ApplicationLayer.Commands
 {
     public class CreateCarCommand
     {
-        //dane, 0 logiki
         public string RegistrationNumber { get; set; }
         public decimal DailyRate { get; set; }
         public decimal PositionX { get; set; }

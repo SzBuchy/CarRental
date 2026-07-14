@@ -12,7 +12,6 @@ namespace DDD.CarRental.Core.ApplicationLayer.DomainEventHandlers
     {
         public void Handle(RentalStartedEvent domainEvent)
         {
-            //wysatrczy że coś wypiszę na potrzeby projektu
             Console.WriteLine($"[EVENT] Wypożyczenie {domainEvent.RentalId}, samochodu {domainEvent.CarId}, przez kierowcę {domainEvent.DriverId} utworzone o czasie {domainEvent.StartedAt}!");
         }
     }

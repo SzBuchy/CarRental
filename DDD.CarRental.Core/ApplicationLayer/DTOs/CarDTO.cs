@@ -13,17 +13,13 @@ namespace DDD.CarRental.Core.ApplicationLayer.DTOs
         public decimal DailyRate { get; set; }
         public string Status { get; set; }
 
-        //spłaszcam ValueObjecty żeby nie musieć potem ich jeszcze mapować
-        //CurrentPosition
         public decimal PositionX { get; set; }
         public decimal PositionY { get; set; }
         public string PositionUnit { get; set; }
 
-        //CurrentDistance
         public decimal CurrentDistanceValue { get; set; }
         public string CurrentDistanceUnit { get; set; }
 
-        //TotalDistance
         public decimal TotalDistanceValue { get; set; }
         public string TotalDistanceUnit { get; set; }
     }

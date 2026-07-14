@@ -10,9 +10,6 @@ namespace DDD.CarRental.Core.ApplicationLayer.Commands
     {
         public int RentalId { get; set; }
         public DateTime FinishedAt { get; set; }
-
-        //mam tylko RentalId, bo to jest warstwa aplikacji, a nie domeny,
-        //więc nie mogę użyć całego obiektu Rental, tylko jego Id,
-        //a w handlerze znajdę ten obiekt i wywołam na nim metodę Finish
+        
     }
 }
