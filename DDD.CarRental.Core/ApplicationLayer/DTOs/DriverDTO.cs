@@ -14,7 +14,6 @@ namespace DDD.CarRental.Core.ApplicationLayer.DTOs
         public string LicenceNumber { get; set; }
         public int FreeMinutes { get; set; }
 
-        //może się przydać taki FullName do wyświetlania w UI
         public string FullName => $"{FirstName} {LastName}";
     }
 }

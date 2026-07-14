@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DDD.CarRental.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47deeb90e423370925eb000a16dadf92185d4b66")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff80d4c51abb99a47106a7880923aa05d4844e2e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DDD.CarRental.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DDD.CarRental.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

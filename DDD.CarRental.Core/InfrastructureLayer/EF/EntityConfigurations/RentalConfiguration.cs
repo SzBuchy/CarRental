@@ -9,7 +9,6 @@ namespace DDD.CarRental.Core.InfrastructureLayer.EF.EntityConfigurations
         public void Configure(EntityTypeBuilder<Rental> rentalConfiguration)
         {
             rentalConfiguration.HasKey(r => r.Id);
-            rentalConfiguration.Property(r => r.Id).ValueGeneratedNever();
             rentalConfiguration.Ignore(r => r.DomainEvents);
 
             rentalConfiguration.Property(r => r.StartedAt).IsRequired();

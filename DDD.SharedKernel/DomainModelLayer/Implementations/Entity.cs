@@ -38,7 +38,6 @@ namespace DDD.SharedKernel.DomainModelLayer.Implementations
 
         public Entity()
         {
-            this.Id = new Random().Next(0, int.MaxValue);
             this._domainEvents = new List<IDomainEvent>();
         }
             

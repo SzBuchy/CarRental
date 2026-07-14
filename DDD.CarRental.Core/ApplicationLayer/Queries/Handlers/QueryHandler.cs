@@ -10,7 +10,6 @@ namespace DDD.CarRental.Core.ApplicationLayer.Queries.Handlers
 {
     public class QueryHandler
     {
-        //zwraca DTO przez Mapper i jest super
         private readonly ICarRentalUnitOfWork cruow;
         private readonly Mapper mapper;
 
@@ -20,7 +19,6 @@ namespace DDD.CarRental.Core.ApplicationLayer.Queries.Handlers
             this.mapper = mapper;
         }
 
-        //tak jak w CommandHandlerze
 
         public CarDTO Execute(GetCarQuery query)
         {

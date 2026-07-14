@@ -1,4 +1,4 @@
-﻿﻿using DDD.SharedKernel.DomainModelLayer.Implementations;
+﻿using DDD.SharedKernel.DomainModelLayer.Implementations;
 using System;
 using System.Collections.Generic;
 
